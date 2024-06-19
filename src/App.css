@@ -1,0 +1,100 @@
+.App {
+  overflow-x: hidden;
+}
+@media (max-width: 1024px) {
+  #who1img,
+  #AboutImage1,
+  #visionimg1,
+  #Missionimg,
+  #valuesimg {
+    visibility: hidden !important;
+  }
+
+  #whychooseusimg {
+    position: relative;
+    bottom: 12em;
+  }
+
+  #excellance {
+    position: relative;
+    bottom: 8em;
+  }
+
+  #myimg {
+    position: relative;
+    top: 40px;
+    object-fit: contain;
+  }
+
+  #someimg {
+    border-radius: 10%;
+  }
+
+  #contact-cta {
+    width: 120px !important;
+  }
+}
+@media (max-width: 767px) {
+  #contact-cta {
+    padding-top: 20px;
+  }
+  #contact-form {
+    margin-top: 60px !important;
+  }
+}
+
+/* Add this CSS to your styles */
+.button-container {
+  position: relative;
+}
+
+.text-blue-500 {
+  transform: translateY(40px);
+  opacity: 0;
+  /* Hide the button by default */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  background-color: transparent;
+  /* Add a background color for better visibility */
+  padding: 5px;
+  /* Add padding for better aesthetics */
+  transition: opacity 0.3s ease;
+  /* Add a transition effect for a smooth appearance */
+}
+
+.button-container:hover .text-blue-500 {
+  text-decoration: none;
+  opacity: 1;
+  /* Show the button on hover */
+}
+.custom-navbar {
+  height: 80px;
+  box-shadow: none !important;
+}
+.small-navbar {
+  height: 70px; /* Set the height to your desired value */
+  transition: height 0.5s ease-in-out;
+  background-color: whitesmoke;
+}
+
+.hovered-links {
+  text-decoration: none;
+  position: relative;
+}
+.hovered-links::after {
+  content: "";
+  display: block;
+  width: 0; /* Initially, the underline has zero width */
+  height: 2px; /* Set the underline height */
+  background-color: #000; /* Set your desired underline color */
+  position: absolute;
+  bottom: -10px; /* Position it just below the text */
+  transition: width 0.3s ease; /* Add a smooth transition for the width */
+}
+
+.hovered-links:hover::after {
+  width: 100%;
+  /* Full width when hovered */
+}
