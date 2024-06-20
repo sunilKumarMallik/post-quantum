@@ -32,6 +32,16 @@ import QITSolution from "../pages/SolutionsPages/QITSolution";
 import PharmaSolution from "../pages/SolutionsPages/PharmaSolution";
 import FintectSoluiton from "../pages/SolutionsPages/FintectSoluiton";
 import PqcMigration from "../pages/PqcMigration";
+import Approval from "../pages/QuantumSafeEco/Approval";
+import HybridPQ from "../pages/QuantumSafeEco/HybridPQ";
+import MessagingPQ from "../pages/QuantumSafeEco/MessagingPQ";
+import QuantumSafe from "../pages/QuantumSafeEco/QuantumSafe";
+import Identity from "../pages/QuantumSafeEco/Identity";
+import Industry from "../pages/Industries/Industry";
+import PQVideos from "../pages/PqInsights/PQVideos";
+import ContactDetails from "../pages/AboutPage/ContactDetails";
+import Company from "../pages/AboutPage/Company";
+import AboutUs from "../pages/AboutPage/AboutUs";
 
 export default function Routes() {
   const router = createBrowserRouter([
@@ -60,6 +70,16 @@ export default function Routes() {
         { path: "/qsc", element: <QSC /> },
         { path: "/qit", element: <QIT /> },
         { path: "/qai", element: <QAI /> },
+        { path: "/approval", element: <Approval /> },
+        { path: "/hybridpq", element: <HybridPQ /> },
+        { path: "/messagingpq", element: <MessagingPQ /> },
+        { path: "/quantumsafe", element: <QuantumSafe /> },
+        { path: "/identity", element: <Identity /> },
+        { path: "/industry", element: <Industry /> },
+        { path: "/pqvideos", element: <PQVideos /> },
+        { path: "/contactdetails", element: <ContactDetails /> },
+        { path: "/company", element: <Company /> },
+        { path: "/about", element: <AboutUs /> },
         { path: "/qcs/pqc", element: <PQCSolution /> },
         { path: "/qcs/qrng", element: <QRNGSolution /> },
         { path: "/qcs/qn", element: <QNSolution /> },

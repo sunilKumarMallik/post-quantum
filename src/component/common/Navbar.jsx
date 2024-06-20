@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import clogo from "../../assets/images/POSTQUANTUM.png";
 import { AdjustmentsHorizontalIcon } from "@heroicons/react/24/solid";
-import {  MobileNav } from "@material-tailwind/react";
+import { MobileNav } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import { navItem } from "./navList";
 import { GiMagnifyingGlass } from "react-icons/gi";
@@ -79,9 +79,8 @@ export default function Navbar() {
           {item.subMenu.length > 0 && (
             <div
               id="dropdownNavbar"
-              className={`${
-                activeDropdown === item.label ? "" : "hidden"
-              } absolute z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-48`}
+              className={`${activeDropdown === item.label ? "" : "hidden"
+                } absolute z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-48`}
             >
               <ul
                 className="py-2 text-sm text-black dark:text-gray-900"
@@ -107,6 +106,7 @@ export default function Navbar() {
           )}
         </li>
       ))}
+
       <li>
         <Link
           to="/"
@@ -124,9 +124,8 @@ export default function Navbar() {
         <nav
           key={expand}
           expand={expand}
-          className={`custom-navbar fixed top-0 left-0 right-0 z-50 bg-gray-200 border-gray-900 shadow-md ${
-            isScrolled ? "small-navbar" : ""
-          }`}
+          className={`custom-navbar fixed top-0 left-0 right-0 z-50 bg-gray-200 border-gray-900 shadow-md ${isScrolled ? "small-navbar" : ""
+            }`}
         >
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
             <div>

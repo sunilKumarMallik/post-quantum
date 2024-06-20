@@ -3,35 +3,35 @@ export const navItem = [
 
   {
     label: "Quantum Safe Ecosystem",
-    to: "/services",
+    to: "/quantumsafe",
     subMenu: [
-      { label: "Hybrid PQ VPN", to: "/newsroom" },
-      { label: "Messanging - PQ Chat", to: "/blogging" },
-      { label: "Identity", to: "/blogging" },
-      { label: "Approval As a Service", to: "/blogging" },
+      { label: "Hybrid PQ VPN", to: "/hybridpq" },
+      { label: "Messanging - PQ Chat", to: "/messagingpq" },
+      { label: "Identity", to: "/identity" },
+      { label: "Approval As a Service", to: "/approval" },
     ],
   },
   {
     label: "Industries",
-    to: "/services",
+    to: "/industry",
     subMenu: [
-      
+
     ],
   },
   {
     label: "PQ Insights",
     to: "/services",
     subMenu: [
-      { label: "PQ-videos", to: "/culture" },
+      { label: "PQ-videos", to: "/pqvideos" },
 
     ],
   },
   {
     label: "Abouts US",
-    to: "/services",
+    to: "/company",
     subMenu: [
-      { label: "The Company", to: "/culture" },
-      { label: "Contact Details", to: "/culture" },
+      { label: "The Company", to: "/company" },
+      { label: "Contact Details", to: "/contactdetails" },
 
     ],
   },
