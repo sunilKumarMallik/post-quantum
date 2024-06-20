@@ -72,7 +72,7 @@ export default function Navbar() {
           <button
             id="dropdownNavbarLink"
             data-dropdown-toggle="dropdownNavbar"
-            className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700"
+            className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700"
           >
             {item.label}
           </button>
@@ -96,7 +96,7 @@ export default function Navbar() {
                   >
                     <Link
                       to={subitem.to}
-                      className="hovered-links flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100  dark:hover:text-gray-800"
+                      className="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100  dark:hover:text-gray-800"
                     >
                       {subitem.label}
                     </Link>
