@@ -1,15 +1,15 @@
 import React from "react";
 
-const OurProducts = () => {
+const KeyIndustry = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
-            Quantum-Safe Platform: become quantum-safe today
+          <h1 className="flex justify-center sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">
+            Supporting key industries
           </h1>
           <div className=" flex justify-center grid-flow-row mb-12">
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
+            <p className="text-base text-[#454545]  font-medium title-font  bg-white mb-4  ">
               Post-Quantum has been preparing for this day since the company was
               founded in 2009. Our Quantum Safe Platform protects organisations
               from Harvest Now, Decrypt Later attacks today. With products for
@@ -27,20 +27,14 @@ const OurProducts = () => {
                   alt="blog"
                 />
                 <div className="p-6">
-                  <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
-                    PQ Chat
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    Banking & Financial Services
                   </h1>
-                  <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
-                    Secure, seamless, end-to-end. The world’s first
-                    quantum-safe, secure, end-to-end encrypted messaging app
+                  <p className="leading-relaxed mb-3">
+                    Banks, trading technology, asset managers and the
+                    crypto-currency industry.
                   </p>
-                  <button
-                    type="button"
-                    class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                  >
-                    READ MORE
-                  </button>
-                  {/* <div class="flex items-center flex-wrap">
+                  <div class="flex items-center flex-wrap">
                     <a class="text-black font-bold inline-flex items-center md:mb-2 lg:mb-0">
                       READ MORE
                       <svg
@@ -56,7 +50,7 @@ const OurProducts = () => {
                         <path d="M12 5l7 7-7 7"></path>
                       </svg>
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -68,20 +62,14 @@ const OurProducts = () => {
                   alt="blog"
                 />
                 <div className="p-6">
-                  <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
-                    Hybrid PQ VPN
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    Defence & National Security
                   </h1>
-                  <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
-                    Secure, simple, future proof. our Hybrid PQ VPN secures
-                    data-in-transit from traditional and quantum attack.
+                  <p className="leading-relaxed mb-3">
+                    National and transnational security and defence
+                    organisations protecting democratic nation states.
                   </p>
-                  <button
-                    type="button"
-                    class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                  >
-                    READ MORE
-                  </button>
-                  {/* <div class="flex items-center flex-wrap">
+                  <div class="flex items-center flex-wrap">
                     <a class="text-black font-bold inline-flex items-center md:mb-2 lg:mb-0">
                       READ MORE
                       <svg
@@ -97,7 +85,7 @@ const OurProducts = () => {
                         <path d="M12 5l7 7-7 7"></path>
                       </svg>
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -109,20 +97,14 @@ const OurProducts = () => {
                   alt="blog"
                 />
                 <div className="p-6">
-                  <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
-                    Nomidio Identity
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    Critical National Infrastructure
                   </h1>
-                  <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
-                    Nomidio is our quantum-ready multi-factor biometric identity
-                    system for secure passwordless sign-in
+                  <p className="leading-relaxed mb-3">
+                    Electricity grids, telecoms operators, healthcare providers
+                    and transport systems
                   </p>
-                  <button
-                    type="button"
-                    class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                  >
-                    READ MORE
-                  </button>
-                  {/* <div class="flex items-center flex-wrap">
+                  <div class="flex items-center flex-wrap">
                     <a class="text-black font-bold inline-flex items-center md:mb-2 lg:mb-0">
                       READ MORE
                       <svg
@@ -138,30 +120,30 @@ const OurProducts = () => {
                         <path d="M12 5l7 7-7 7"></path>
                       </svg>
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="mt-8">
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
+            <p className="leading-relaxed mb-3">
               Interoperable: so you can establish secure communications with
               partners irrespective of the encryption algorithms they use.
             </p>
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
+            <p className="leading-relaxed mb-3">
               Backward compatible: so quantum-safe encryption can be introduced
               seamlessly across your existing IT systems.
             </p>
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
+            <p className="leading-relaxed mb-3">
               Crypto-agile: so you can use any combination of NIST’s
               post-quantum algorithms or traditional encryption.
             </p>
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
+            <p className="leading-relaxed mb-3">
               Uniquely, our multi-factor biometric service ‘Nomidio’ ensures
               adversaries cannot side-step your encryption by compromising
               employee log-in credentials.
             </p>
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
+            <p className="leading-relaxed mb-3">
               Our products are already helping organisations in defence,
               critical national infrastructure and financial services make the
               transition to post-quantum encryption.
@@ -173,4 +155,4 @@ const OurProducts = () => {
   );
 };
 
-export default OurProducts;
+export default KeyIndustry;
