@@ -28,9 +28,14 @@ const Carousel = () => {
                   src="https://dummyimage.com/1203x503"
                 />
               </div>
-              <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-                Shooting Stars
+              <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
+                The Race Is On to Fight a Cyber Threat That Doesn’t Exist
               </h2>
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                A new set of algorithms chosen by the US government will allow
+                organizations to start the long process of preparing for quantum
+                attacks.
+              </p>
             </div>
             <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
@@ -40,9 +45,14 @@ const Carousel = () => {
                   src="https://dummyimage.com/1204x504"
                 />
               </div>
-              <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-                The Catalyzer
+              <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
+                Why Banks and NATO Are Worrying About a Future ‘Quantum Attack’
               </h2>
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                Investment and new milestones in quantum computing are bringing
+                the prospect of an ultra-powerful computer that can crack any
+                code closer to reality.
+              </p>
             </div>
             <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
@@ -52,9 +62,15 @@ const Carousel = () => {
                   src="https://dummyimage.com/1205x505"
                 />
               </div>
-              <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-                The 400 Blows
+              <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
+                NATO and White House recognize post-quantum threats and prepare
+                for Y2Q
               </h2>
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                Over the past decade, encryption has emerged as one of the key
+                solutions that organizations use to secure enterprise
+                communications, services and applications.
+              </p>
             </div>
           </Slider>
         </div>

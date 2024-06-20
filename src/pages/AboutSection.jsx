@@ -1,32 +1,28 @@
 import React from "react";
-
+import IEFT from "../assets/images/IETF.png";
+import nist from "../assets/images/nist.png";
 const AboutSection = () => {
   return (
     <div>
       <section className="text-gray-600 body-font bg-[#f1f1f1]">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <div className=" flex justify-center">
-              <p className="text-base text-[#454545] tracking-widest font-medium title-font mb-1 bg-white rounded-full m-2 w-36 ">
-                KNOW ABOUT
-              </p>
+            <div className="justify-center items-center flex">
+              <img src={nist} className="h-20 mr-3 mt-2" />
             </div>
 
-            <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">
-              About Us
-            </h1>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-          Post Quantum(SQ) is at the forefront of the Quantum Revolution
-              working <br /> on High Imapact Industry Solutions
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Our Suite of products and services will revolutionize major
-              indutries including Goverment, Defence, Finance, Healthcare, Smart
-              Cities, Energy, Telecom, Blockchain, AI and manymore.
+            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
+              Post-Quantum is the co-inventor of NIST Round 4 candidate
+              algorithm ‘Classic McEliece’, which is already <br /> recommended
+              by the German and Dutch governments.
             </p>
-            <button className="flex mx-auto mt-8 text-white bg-[#656565] border-0 py-2 px-8 focus:outline-none  rounded-full text-lg">
-              ABOUT US
-            </button>
+            <div className="justify-center items-center flex">
+              <img src={IEFT} className="h-20 mr-3 mt-2" />
+            </div>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Post-Quantum is the original author of IETF standards for a Hybrid
+              Post-Quantum VPN
+            </p>
           </div>
         </div>
       </section>
