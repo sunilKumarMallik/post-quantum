@@ -729,16 +729,18 @@ import OurProducts from "../OurProducts";
 import OurMembers from "../OurMembers";
 import AllBlogs from "../AllBlogs";
 import ContactSection from "../ContactSection";
-
+import KeyIndustry from "../KeyIndustry/KeyIndustry";
 const Homes = () => {
   return (
     <div>
       <Hero />
-      <AboutSection />
       <OurProducts />
-      <OurMembers />
+      <KeyIndustry />
+      <AboutSection />
+
+      {/* <OurMembers /> */}
       <AllBlogs />
-      <ContactSection />
+      {/* <ContactSection /> */}
     </div>
   );
 };
