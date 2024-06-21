@@ -1,5 +1,6 @@
 import React from "react";
-
+import PQChat from "../assets/images/PQchat.png";
+import "../pages/heropage.css";
 const OurProducts = () => {
   return (
     <div>
@@ -21,25 +22,26 @@ const OurProducts = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
-                  className="lg:h-80 md:h-60 w-full object-cover object-center"
-                  src="https://dummyimage.com/720x400"
-                  alt="blog"
-                />
+                <div className="flex justify-center object-center mt-8">
+                  <img className="lg:h-16 md:h-16 " src={PQChat} alt="blog" />
+                </div>
+
                 <div className="p-6">
                   <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
                     PQ Chat
                   </h1>
                   <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
                     Secure, seamless, end-to-end. The world’s first
-                    quantum-safe, secure, end-to-end encrypted messaging app
+                    quantum-safe, secure, end-to-end encrypted messaging app.
                   </p>
-                  <button
-                    type="button"
-                    class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                  >
-                    READ MORE
-                  </button>
+                  <div className="flex justify-center items-center">
+                    <button
+                      type="button"
+                      class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                    >
+                      READ MORE
+                    </button>
+                  </div>
                   {/* <div class="flex items-center flex-wrap">
                     <a class="text-black font-bold inline-flex items-center md:mb-2 lg:mb-0">
                       READ MORE
@@ -62,11 +64,10 @@ const OurProducts = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
-                  className="lg:h-80 md:h-60 w-full object-cover object-center"
-                  src="https://dummyimage.com/720x400"
-                  alt="blog"
-                />
+                <div className="flex justify-center object-center mt-8">
+                  <img className="lg:h-16 md:h-16 " src={PQChat} alt="blog" />
+                </div>
+
                 <div className="p-6">
                   <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
                     Hybrid PQ VPN
@@ -75,12 +76,14 @@ const OurProducts = () => {
                     Secure, simple, future proof. our Hybrid PQ VPN secures
                     data-in-transit from traditional and quantum attack.
                   </p>
-                  <button
-                    type="button"
-                    class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                  >
-                    READ MORE
-                  </button>
+                  <div className="flex justify-center items-center">
+                    <button
+                      type="button"
+                      class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                    >
+                      READ MORE
+                    </button>
+                  </div>
                   {/* <div class="flex items-center flex-wrap">
                     <a class="text-black font-bold inline-flex items-center md:mb-2 lg:mb-0">
                       READ MORE
@@ -103,11 +106,10 @@ const OurProducts = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
-                  className="lg:h-80 md:h-60 w-full object-cover object-center"
-                  src="https://dummyimage.com/720x400"
-                  alt="blog"
-                />
+                <div className="flex justify-center object-center mt-8">
+                  <img className="lg:h-16 md:h-16 " src={PQChat} alt="blog" />
+                </div>
+
                 <div className="p-6">
                   <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
                     Nomidio Identity
@@ -116,12 +118,15 @@ const OurProducts = () => {
                     Nomidio is our quantum-ready multi-factor biometric identity
                     system for secure passwordless sign-in
                   </p>
-                  <button
-                    type="button"
-                    class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                  >
-                    READ MORE
-                  </button>
+                  <div className="flex justify-center items-center">
+                    <button
+                      type="button"
+                      class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                    >
+                      READ MORE
+                    </button>
+                  </div>
+
                   {/* <div class="flex items-center flex-wrap">
                     <a class="text-black font-bold inline-flex items-center md:mb-2 lg:mb-0">
                       READ MORE
@@ -144,22 +149,23 @@ const OurProducts = () => {
             </div>
           </div>
           <div className="mt-8">
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
-              Interoperable: so you can establish secure communications with
-              partners irrespective of the encryption algorithms they use.
+            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]  bullet-before">
+              <strong>Interoperable: </strong>so you can establish secure
+              communications with partners irrespective of the encryption
+              algorithms they use.
             </p>
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
-              Backward compatible: so quantum-safe encryption can be introduced
-              seamlessly across your existing IT systems.
+            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]  bullet-before">
+              <strong>Backward compatible: </strong>so quantum-safe encryption
+              can be introduced seamlessly across your existing IT systems.
             </p>
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
-              Crypto-agile: so you can use any combination of NIST’s
-              post-quantum algorithms or traditional encryption.
+            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]  bullet-before">
+              <strong>Crypto-agile:</strong> so you can use any combination of
+              NIST’s post-quantum algorithms or traditional encryption.
             </p>
-            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
-              Uniquely, our multi-factor biometric service ‘Nomidio’ ensures
-              adversaries cannot side-step your encryption by compromising
-              employee log-in credentials.
+            <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]  bullet-before">
+              <strong>Uniquely,</strong> our multi-factor biometric service
+              ‘Nomidio’ ensures adversaries cannot side-step your encryption by
+              compromising employee log-in credentials.
             </p>
             <p className="sm:text-base text-base mb-4 font-dmSans text-[#686868]">
               Our products are already helping organisations in defence,

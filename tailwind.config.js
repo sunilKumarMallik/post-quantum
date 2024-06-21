@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  // content: [],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -14,16 +13,13 @@ export default {
       },
       fontFamily: {
         heebo: ["Heebo", "sans"],
+        dmSans: ["'DM Sans'", "sans-serif"], // Add DM Sans here
       },
-    },
-    extend: {
       transitionDelay: {
         20: "20ms",
         30: "30ms",
         40: "40ms",
-      },
-      transitionDelay: {
-        350: "350ms",
+        350: "350ms", // Merge transition delays here
       },
     },
   },

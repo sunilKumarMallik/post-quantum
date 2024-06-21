@@ -98,3 +98,8 @@
   width: 100%;
   /* Full width when hovered */
 }
+.bullet-before::before {
+  content: "•"; /* Unicode character for the bullet */
+  margin-right: 8px; /* Space between the bullet and the text */
+  color: #686868; /* Color of the bullet */
+}

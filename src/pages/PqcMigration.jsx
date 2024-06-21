@@ -1,18 +1,3 @@
-// import React from 'react'
-
-// function PqcMigration() {
-//   return (
-//     <div>
-      
-//     </div>
-//   )
-// }
-
-// export default PqcMigration
-
-
-
-
 import React from "react";
 // import Revolution from "../../assets/images/Revolution.png";
 // import bgred from "../../assets/images/bgred.jpg";
@@ -26,34 +11,88 @@ export default function PqcMigration() {
     type: "spring",
   };
   return (
-    <div className="bg-black">
-      {/* {/ Section-1 /} */}
-      <section
-        className=" bg-no-repeat bg-center "
-        style={{
-        //   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(${bgred})`,
-          backgroundsize: "cover",
-          height: "400px",
-        }}
-      >
-        <nav
-          x-data="{ isOpen: false }"
-          className="container p-6 mx-auto lg:flex lg:justify-between lg:items-center"
-        >
-          <div className="flex items-center justify-between">
-            <div className="flex lg:hidden"></div>
-          </div>
-          {/* <div className="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white shadow-md lg:bg-transparent lg:dark:bg-transparent lg:shadow-none dark:bg-gray-900 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center"></div> */}
-        </nav>
-
-        <div className="container px-6 py-16 mx-auto text-start ">
-          <div className=" mx-auto rounded-full">
-            <h1 className="text-4xl lg:text-6xl not-italic font-medium font-heebo  text-white mt-8 dark:text-white ">
+    <div className="">
+      <section className="body-font mt-12">
+        <div className="container mx-auto flex px-5 py-24  flex-col items-center">
+          <div className="lg:pr-8 md:pr-8 lg:pl-16 md:pl-8 flex flex-col items-center text-center mb-16 md:mb-0">
+            <h1 className="title-font sm:text-5xl text-2xl mb-8 font-bold font-dmSans">
               The PQC Migration
             </h1>
-            <p className=" text-xl md:text-xl lg:text-3xl leading-7 lg:leading-9 mt-4 lg:mt-6 text-white not-italic font-medium tracking-wide font-heebo w-full text-start ">
-              Democratizing Data Protection With Post Quantum Encryption
-              Technologies
+            <p className="sm:text-2xl text-2xl mb-8 text-[#686868] font-dmSans">
+              We’ve set the standards, now we’re helping the world migrate
+            </p>
+            <div className="">
+              <p className="sm:text-base text-base mb-8 text-[#686868] font-dmSans">
+                Action and regulatory changes are being mandated on a national
+                and supranational level to counter Harvest Now, Decrypt Later
+                attacks.
+                <br />
+                In the US, the White House announced two directives aimed at
+                accelerating the quantum-proofing of IT infrastructure in
+                federal agencies. This was closely followed by a commitment
+                being made by G7 nations to ensure greater cooperation on the
+                deployment of quantum-resistant cryptography.
+                <br />
+                This follows a watershed decision by the National Institute of
+                Standards and Technology (NIST), which made its first
+                recommendations on which algorithms will soon protect the
+                world's digital economy.
+                <br />
+                Regulators, governments and standard-setters are beginning to
+                take notice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>{" "}
+      <section className="text-gray-600 body-font mt-12">
+        <div className="container mx-auto flex px-5 py-24  flex-col items-center">
+          <div className="lg:pr-8 md:pr-8 lg:pl-16 md:pl-8 flex flex-col items-center text-center mb-16 md:mb-0">
+            <h1 className="title-font sm:text-3xl text-2xl mb-8 text-[#686868] font-dmSans">
+              The Cost of Inaction
+            </h1>
+            <p className="sm:text-xl text-xl mb-8 text-[#686868] font-dmSans">
+              With the needle shifting, can you afford to fall behind?
+            </p>
+            <p className="sm:text-xl text-xl mb-8 text-[#686868] font-dmSans">
+              Even after a classical cyber security breach of limited scale, the
+              effects on brand value can be extremely costly.
+              <br /> A quantum attack is likely to be far more impactful,
+              potentially wiping out entire sectors and economies. The cost of
+              inaction - from both a monetary and reputational aspect - is far
+              higher when it comes to quantum.
+              <br />
+              With the cost of inaction so high, and HNDL threats real and
+              immediate today, why wait?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font mt-12">
+        <div className="container mx-auto flex px-5 py-24 flex-col items-center">
+          <div className="lg:pr-8 md:pr-8 lg:pl-16 md:pl-8 flex flex-col items-center text-center mb-16 md:mb-0">
+            <h1 className="title-font sm:text-3xl text-2xl mb-8 text-[#686868] font-dmSans">
+              Supporting you in the migration
+            </h1>
+            <p className="sm:text-xl text-xl mb-8 text-[#686868] font-dmSans">
+              We have a distinguished record in supporting standards
+              development:
+            </p>
+            <p className="sm:text-xl text-xl mb-8 text-[#686868] font-dmSans">
+              NIST ‘Classic McEliece’ round four candidate algorithm <br />
+              IETF proposal for a hybrid quantum-safe VPN
+              <br /> Additional IETF proposals to define other quantum-safe
+              communications <br />
+              Pioneer in defining
+              <br />
+              and creating hybridised crypto solutions Quantum-Safe Platform is
+              helping critical national infrastructure, defence, and financial
+              services organisations as they transition to a quantum-safe
+              future.
+              <br /> We’ve done the R&D. We’ve built the products you need. And
+              we’re ready to support you to become quantum-safe.
+              <br /> We’re ready for the migration journey. We are ready for a
+              post-quantum world. Are you?
             </p>
           </div>
         </div>
@@ -61,4 +100,3 @@ export default function PqcMigration() {
     </div>
   );
 }
-

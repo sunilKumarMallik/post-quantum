@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "../component/Carasouel";
 const AllBlogs = () => {
   return (
-    <div>
+    <div className="bg-[#e4ebf2]">
       <section className="text-gray-600 body-font">
         <div className="container  py-24 flex flex-wrap items-center  ">
           <div className="lg:w-3/4 md:w-1/2 ml-6 lg:pr-0 pr-0">
