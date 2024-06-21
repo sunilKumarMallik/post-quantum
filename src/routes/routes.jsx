@@ -42,6 +42,7 @@ import PQVideos from "../pages/PqInsights/PQVideos";
 import ContactDetails from "../pages/AboutPage/ContactDetails";
 import Company from "../pages/AboutPage/Company";
 import AboutUs from "../pages/AboutPage/AboutUs";
+import PQInsights from "../pages/PqInsights/PQInsights";
 
 export default function Routes() {
   const router = createBrowserRouter([
@@ -51,6 +52,7 @@ export default function Routes() {
       children: [
         // PostQantum
         { path: "/", element: <Homes /> },
+        { path: "/pqinsights", element: <PQInsights /> },
         { path: "/qcs", element: <QCS /> },
         { path: "/qai", element: <QAI /> },
         { path: "/qs", element: <QS /> },

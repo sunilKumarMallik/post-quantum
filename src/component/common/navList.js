@@ -20,7 +20,7 @@ export const navItem = [
   },
   {
     label: "PQ Insights",
-    to: "/services",
+    to: "/pqinsights",
     subMenu: [
       { label: "PQ-videos", to: "/pqvideos" },
 

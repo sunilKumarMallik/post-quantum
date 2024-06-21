@@ -69,18 +69,22 @@ export default function Navbar() {
           onMouseLeave={handleMouseLeave}
           className="hovered-links"
         >
-          <button
-            id="dropdownNavbarLink"
-            data-dropdown-toggle="dropdownNavbar"
-            className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700"
-          >
-            {item.label}
-          </button>
+          <Link to={item.to}>
+            <button
+              id="dropdownNavbarLink"
+              data-dropdown-toggle="dropdownNavbar"
+              className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700"
+            >
+              {console.log(item.to)}
+              {item.label}
+            </button>
+          </Link>
           {item.subMenu.length > 0 && (
             <div
               id="dropdownNavbar"
-              className={`${activeDropdown === item.label ? "" : "hidden"
-                } absolute z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-48`}
+              className={`${
+                activeDropdown === item.label ? "" : "hidden"
+              } absolute z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-48`}
             >
               <ul
                 className="py-2 text-sm text-black dark:text-gray-900"
@@ -124,8 +128,9 @@ export default function Navbar() {
         <nav
           key={expand}
           expand={expand}
-          className={`custom-navbar fixed top-0 left-0 right-0 z-50 bg-gray-200 border-gray-900 shadow-md ${isScrolled ? "small-navbar" : ""
-            }`}
+          className={`custom-navbar fixed top-0 left-0 right-0 z-50 bg-gray-200 border-gray-900 shadow-md ${
+            isScrolled ? "small-navbar" : ""
+          }`}
         >
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
             <div>
