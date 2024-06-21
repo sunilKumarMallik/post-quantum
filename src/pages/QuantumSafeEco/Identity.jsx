@@ -106,6 +106,78 @@ export default function Identity() {
           </div>
         </div>
       </section>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-12 mx-auto flex flex-wrap">
+          <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
+            Nomidio Identity Use cases
+          </h1>
+
+          <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+            <img
+              alt="Frontline workers"
+              className="object-cover object-center h-full w-full"
+              src={workers}
+            />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:py-6 lg:w-full lg:pl-12 lg:text-left text-center">
+            <div className="flex flex-row mb-10 lg:items-start items-center">
+              <FaUserShield className="text-gray-900 w-10 h-10" />
+              <div className="ml-4">
+                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
+                  Secure Sign in
+                </h2>
+                <p>Secure Sign in for employees working remotely</p>
+              </div>
+            </div>
+            <div className="flex flex-row mb-10 lg:items-start items-center">
+              <FaTruck className="text-gray-900 w-10 h-10" />
+              <div className="ml-4">
+                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
+                  Supply Chain
+                </h2>
+                <p>
+                  Increase security of user access in supply-chain environments
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-row mb-10 lg:items-start items-center">
+              <FaUserShield className="text-gray-900 w-10 h-10" />
+              <div className="ml-4">
+                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
+                  Step-up Authentication
+                </h2>
+                <p>
+                  Step-up authentication security for privileged system access
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-row mb-10 lg:items-start items-center">
+              <FaKey className="text-gray-900 w-10 h-10" />
+              <div className="ml-4">
+                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
+                  Prevent Credential Sharing
+                </h2>
+                <p>
+                  Prevent credential sharing for auditability and reduced
+                  leakage for subscription businesses
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-row mb-10 lg:items-start items-center">
+              <FaLock className="text-gray-900 w-10 h-10" />
+              <div className="ml-4">
+                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
+                  Eliminate Password-reset costs
+                </h2>
+                <p>
+                  Eliminate password-reset costs and improve the efficiency of
+                  workers in the field
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="flex flex-wrap mx-4">
         <div className="p-4 md:w-1/3 ">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -226,78 +298,6 @@ export default function Identity() {
           </div>
         </div>
       </div>
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-12 mx-auto flex flex-wrap">
-          <h1 className="font-dmSans sm:text-4xl text-4xl mb-8 text-gray-900 font-semibold text-center w-full">
-            Nomidio Identity Use cases
-          </h1>
-
-          <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            <img
-              alt="Frontline workers"
-              className="object-cover object-center h-full w-full"
-              src={workers}
-            />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:py-6 lg:w-full lg:pl-12 lg:text-left text-center">
-            <div className="flex flex-row mb-10 lg:items-start items-center">
-              <FaUserShield className="text-gray-900 w-10 h-10" />
-              <div className="ml-4">
-                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
-                  Secure Sign in
-                </h2>
-                <p>Secure Sign in for employees working remotely</p>
-              </div>
-            </div>
-            <div className="flex flex-row mb-10 lg:items-start items-center">
-              <FaTruck className="text-gray-900 w-10 h-10" />
-              <div className="ml-4">
-                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
-                  Supply Chain
-                </h2>
-                <p>
-                  Increase security of user access in supply-chain environments
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-row mb-10 lg:items-start items-center">
-              <FaUserShield className="text-gray-900 w-10 h-10" />
-              <div className="ml-4">
-                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
-                  Step-up Authentication
-                </h2>
-                <p>
-                  Step-up authentication security for privileged system access
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-row mb-10 lg:items-start items-center">
-              <FaKey className="text-gray-900 w-10 h-10" />
-              <div className="ml-4">
-                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
-                  Prevent Credential Sharing
-                </h2>
-                <p>
-                  Prevent credential sharing for auditability and reduced
-                  leakage for subscription businesses
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-row mb-10 lg:items-start items-center">
-              <FaLock className="text-gray-900 w-10 h-10" />
-              <div className="ml-4">
-                <h2 className="text-gray-900 text-lg title-font font-medium my-2">
-                  Eliminate Password-reset costs
-                </h2>
-                <p>
-                  Eliminate password-reset costs and improve the efficiency of
-                  workers in the field
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
