@@ -5,7 +5,6 @@ import "../pages/heropage.css";
 const Hero = () => {
   return (
     <div>
-      {/* ReactPlayer section */}
       <section
         className="text-gray-600 body-font mt-20"
         style={{
@@ -13,29 +12,11 @@ const Hero = () => {
           clipPath: "polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%)",
           color: "white",
           position: "relative",
-          paddingBottom: "150px", // Adjust this to create space for the ReactPlayer overlap
-          zIndex: 1, // Ensure ReactPlayer is above subsequent sections
+          paddingBottom: "150px",
+          zIndex: 1,
         }}
       >
         <div className="container mx-auto flex px-5 py-24 flex-col items-center relative">
-          {/* ReactPlayer container */}
-          <div
-            className="absolute w-full flex justify-center"
-            style={{ bottom: "-75px" }}
-          >
-            <div className="react-player-container overflow-hidden rounded-lg">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=V8eWxOLXLK8"
-                className="react-player"
-                playing={false}
-                controls
-                width="100%" // Adjust width if necessary
-                height="100%" // Adjust height if necessary
-              />
-            </div>
-          </div>
-
-          {/* Main content */}
           <div className="lg:flex-grow lg:pr-8 md:pr-8 lg:pl-16 md:pl-8 flex flex-col md:items-center md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-5xl text-4xl mb-8 font-bold text-white font-dmSans">
               Helping organisations become quantum-safe
@@ -62,21 +43,23 @@ const Hero = () => {
               Konrad Wrona, Principal Scientist, NATO Cyber Security Centre.
             </strong>
           </div>
-          <div
-            className="absolute w-full flex justify-center"
-            style={{ bottom: "-165px" }}
-          >
-            <div className="react-player-container overflow-hidden rounded-lg">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=V8eWxOLXLK8"
-                className="react-player"
-                playing={false}
-                controls
-              />
-            </div>
-          </div>
         </div>
       </section>
+      <div
+        className="absolute w-full flex justify-center align-middle m-auto"
+        style={{ bottom: "-165px", zIndex: 999 }}
+      >
+        <div
+          className="react-player-container overflow-hidden rounded-lg"
+        >
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=V8eWxOLXLK8"
+            className="react-player"
+            playing={false}
+            controls
+          />
+        </div>
+      </div>
 
       {/* Second section */}
       <section
@@ -86,6 +69,7 @@ const Hero = () => {
           clipPath: "polygon(0 0%, 100% 0%, 100% 70%, 50% 100%, 0 70%)",
           color: "white",
           position: "relative",
+          top:"100px",
           paddingBottom: "150px", // Adjust this to create space for the ReactPlayer overlap
           marginTop: "-100px", // This ensures the sections overlap correctly
           zIndex: 0, // Ensure this section is below ReactPlayer

@@ -1,16 +1,17 @@
 import React from "react";
 import Carousel from "../component/Carasouel";
+
 const AllBlogs = () => {
   return (
-    <div className="bg-[#e4ebf2]">
+    <div className="bg-[#e4ebf2] min-h-screen">
       <section className="text-gray-600 body-font">
-        <div className="container  py-24 flex flex-wrap items-center  ">
-          <div className="lg:w-3/4 md:w-1/2 ml-6 lg:pr-0 pr-0">
-            <Carousel />
-          </div>
-          <div className="lg:w-1/5 md:w-1/4   rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0  ">
-            <div className="flex flex-col text-center w-full mb-20   ">
-              <button className="flex mx-auto mt-8 text-white bg-[#656565] border-0 py-2 px-8 focus:outline-none  rounded-full text-lg">
+        <div className="container mx-auto px-5 py-24">
+          <div className="grid grid-cols-10 gap-4">
+            <div className="col-span-9">
+              <Carousel />
+            </div>
+            <div className="col-span-1 flex flex-col items-center justify-center">
+              <button className="flex mx-auto text-black border-0 py-2 px-8 focus:outline-none text-lg">
                 Read our Press Insights
               </button>
             </div>

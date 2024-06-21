@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 import React from "react";
 import Revolution from "../../assets/images/Revolution.png";
 import IconFC from "../../assets/images/righticon.png";
